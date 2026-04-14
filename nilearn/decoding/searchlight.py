@@ -254,7 +254,7 @@ class SearchLight(TransformerMixin, NilearnBaseEstimator):
         radius of the searchlight ball, in millimeters.
 
     estimator : obj:`str` or estimator object, default='svc'
-        The object to use to fit the data. Besides the strings, it is also 
+        The object to use to fit the data. Besides the strings, it is also
         possible to pass a scikit-learn compatible estimator object.
         Note that using a custom estimator is at the user's own risk.
 
