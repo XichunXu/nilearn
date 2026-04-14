@@ -1241,7 +1241,7 @@ class Decoder(_ClassifierMixin, _BaseDecoder):
 
     Parameters
     ----------
-    estimator : :obj:`str`or estimator object, default='svc'
+    estimator : :obj:`str` or estimator object, default='svc'
         The estimator to choose among:
         %(classifier_options)s
         Besides the strings, it is also possible to pass a scikit-learn
