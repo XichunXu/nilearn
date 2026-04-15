@@ -1241,7 +1241,8 @@ class Decoder(_ClassifierMixin, _BaseDecoder):
 
     Parameters
     ----------
-    estimator : :obj:`str` or a scikit-learn compatible estimator object, default='svc'
+    estimator : :obj:`str` or a scikit-learn compatible estimator object,
+        default='svc'
         The estimator to choose among:
         %(classifier_options)s
         Besides the strings, it is also possible to pass a scikit-learn
@@ -1432,7 +1433,8 @@ class DecoderRegressor(MultiOutputMixin, _RegressorMixin, _BaseDecoder):
 
     Parameters
     ----------
-    estimator : :obj:`str` or estimator object default="svr"
+    estimator : :obj:`str` or a scikit-learn compatible estimator object,
+        default="svr"
         The estimator to choose among:
         %(regressor_options)s
         Besides the strings, it is also possible to pass a scikit-learn
@@ -1609,7 +1611,8 @@ class FREMRegressor(MultiOutputMixin, _RegressorMixin, _BaseDecoder):
 
     Parameters
     ----------
-    estimator : :obj:`str` or estimator object, default="svr"
+    estimator : :obj:`str` or a scikit-learn compatible estimator object,
+        default="svr"
         The estimator to choose among:
         %(regressor_options)s
         Besides the strings, it is also possible to pass a scikit-learn
@@ -1788,7 +1791,8 @@ class FREMClassifier(_ClassifierMixin, _BaseDecoder):
 
     Parameters
     ----------
-    estimator : :obj:`str` or estimator object, default='svc'
+    estimator : :obj:`str` or a scikit-learn compatible estimator object,
+        default='svc'
         The estimator to choose among:
         %(classifier_options)s
         Besides the strings, it is also possible to pass a scikit-learn
